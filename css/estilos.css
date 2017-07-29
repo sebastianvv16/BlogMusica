@@ -19,19 +19,36 @@ body {
   float: right;
   margin-right: 20px;
   margin-bottom: 3px;
-  padding-top: 85px;
+  margin-top: 85px;
 }
 
+/*Opacidad de los iconos de redes sociales*/
 img[class*="rs"]:hover {
   opacity: 0.7;
 }
 
+/*Estilo del navbar*/
 .navbar-inverse {
   background: #EA4335;
   border: none;
 }
 
-.contenido-blog {
-  background: #F5F5F5;
+/*Estilo para la clase nav justified */
+.nav-justified {
   padding: 5px;
+}
+
+/*Estilo para el color de los link de la navegacion en el menu principal */
+.nav a{
+  color: #ffffff;
+}
+
+/* Estilo para el color de fondo del contenido principal*/
+.contenido-principal {
+  background: #FFFFFF;
+}
+
+/* Estilo para el color de fondo del contenido del blog*/
+.contenido-blog {
+
 }
