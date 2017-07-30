@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset='utf-8'>
-    <meta name='viewport' content='width=device-width initial-scale=1'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
     <meta name='mobile-web-app-capable' content='yes'>
     <link rel='stylesheet' href='css/bootstrap.min.css'>
     <link rel='stylesheet' href='css/estilos.css'>
@@ -42,41 +42,75 @@
 
       <div class="row contenido-principal">
         <div class="col-sm-8 col-md-8 col-lg-8">
-          <div class="row">
-            <div class=''>Beethoven: Sonata "Hammerklavier"</div>
+          <div class="row column-left">
+            <div class='articule-title'><h3>Beethoven: Sonata "Hammerklavier"</h3></div>
             <div class="row">
-                <div class="col-md-9">
-                  <p>Para las personas angloparlantes, el popular título de "Hammerklavier" que ostenta la sonata No 29 de Beethoven puede parecer algo rudo. Hammer traducido al español es martillo así que el título empleado podría sugerir –en el mundo angloparlante, insistimos– la idea de una sonata en la que el aporreo del piano es una necesidad. Nada más lejos de eso.
+                <div class="col-sm-12 col-md-7 col-lg-7">
+                  <p class="">Para las personas angloparlantes, el popular título de "Hammerklavier" que ostenta la sonata No 29 de Beethoven puede parecer algo rudo. Hammer traducido al español es martillo así que el título empleado podría sugerir –en el mundo angloparlante, insistimos– la idea de una sonata en la que el aporreo del piano es una necesidad. Nada más lejos de eso.
                   El título, que la obra comparte con la sonata precedente, es simplemente la palabra alemana para "pianoforte". Beethoven quería agradecer así el obsequio del constructor inglés de pianos Broadwood, quien no hacía mucho le había hecho llegar un piano moderno, de cuerdas percutidas. Es para ese piano moderno que está escrita la sonata: Große Sonate für das Hammerklavier, su título completo.</p>
                 </div>
-                <div class="col-md-3">
-                  <img src="img/sonata.jpg" class="img-responsive">
+                <div class="col-sm-12 col-md-5 col-lg-5">
+                  <img src="img/beethoven.jpg" class="img-responsive">
                 </div>
               </div>
-              <textarea class="form-control" rows="3"></textarea>
+              <form role="form">
+                <div class="">
+                  <span class="glyphicon glyphicon-user icon-user"></span>
+                  <textarea class="form-control textarea-element" rows="2" placeholder="Comentario"></textarea>
+                </div>
+              </form>
           </div>
           <br>
-          <div class="row">
-            <div class=''>Beethoven: Sonata "Hammerklavier"</div>
+          <div class="row column-left">
+            <div class="articule-title"><h3>Mozart: Serenata No 11, para vientos</h3></div>
             <div class="row">
-                <div class="col-md-3">
-                  <img src="img/sonata.jpg" class="img-responsive">
+                <div class="col-sm-12 col-md-5 col-lg-5">
+                  <img src="img/serenata.jpg" class="img-responsive img-left">
                 </div>
-                <div class="col-md-9">
-                  <p>Para las personas angloparlantes, el popular título de "Hammerklavier" que ostenta la sonata No 29 de Beethoven puede parecer algo rudo. Hammer traducido al español es martillo así que el título empleado podría sugerir –en el mundo angloparlante, insistimos– la idea de una sonata en la que el aporreo del piano es una necesidad. Nada más lejos de eso.
-                  El título, que la obra comparte con la sonata precedente, es simplemente la palabra alemana para "pianoforte". Beethoven quería agradecer así el obsequio del constructor inglés de pianos Broadwood, quien no hacía mucho le había hecho llegar un piano moderno, de cuerdas percutidas. Es para ese piano moderno que está escrita la sonata: Große Sonate für das Hammerklavier, su título completo.</p>
+                <div class="col-sm-12 col-md-7 col-lg-7">
+                  <p>En carta del 27 de julio de 1782 Mozart le cuenta a su padre Leopold que ha estado trabajando apuradísimo en la composición de una nueva serenata. Pero la serenata no era tan nueva. Lo que hacía Wolfgang era la revisión de una serenata anterior para seis instrumentos de viento que, ahora, obligadamente debía quedar escrita para ocho. Instalado en Viena hacía recién un año en calidad de pianista y compositor liberto, Mozart se había enterado de la flamante orquesta de vientos que el emperador José II acababa de incorporar a su corte. El soberano, desusadamente, había conformado una agrupación que contaba ocho instrumentistas, y no seis. Acomodar la música a los gustos del emperador es lo que tenía urgido a Mozart.
+                  </p>
                 </div>
               </div>
-              <textarea class="form-control" rows="3"></textarea>
+              <form role="form">
+                <div class="">
+                  <span class="glyphicon glyphicon-user icon-user"></span>
+                  <textarea class="form-control textarea-element" rows="2" placeholder="Comentario"></textarea>
+                </div>
+              </form>
           </div>
-
         </div>
+
         <div class="col-sm-4 col-md-4 col-lg-4">
-          <div class="row">
-
+          <div class="row column-rigth">
+            <form>
+              <div class="input-group">
+                <span class="input-group-addon"><i class="glyphicon glyphicon-search"></i></span>
+                <input id="buscar" type="text" class="form-control">
+              </div>
+              <label for="buscar">Buscar</label>
+            </form>
           </div>
-          <div class="row">
-
+          <div class="row column-rigth">
+            <div class="list-group">
+              <button type="button" class="list-group-item">Cras justo odio</button>
+              <button type="button" class="list-group-item">Dapibus ac facilisis in</button>
+              <button type="button" class="list-group-item">Morbi leo risus</button>
+              <button type="button" class="list-group-item">Porta ac consectetur ac</button>
+              <button type="button" class="list-group-item">Vestibulum at eros</button>
+              <button type="button" class="list-group-item">Cras justo odio</button>
+              <button type="button" class="list-group-item">Dapibus ac facilisis in</button>
+              <button type="button" class="list-group-item">Morbi leo risus</button>
+              <button type="button" class="list-group-item">Porta ac consectetur ac</button>
+              <button type="button" class="list-group-item">Vestibulum at eros</button>
+              <button type="button" class="list-group-item">Cras justo odio</button>
+              <button type="button" class="list-group-item">Dapibus ac facilisis in</button>
+              <button type="button" class="list-group-item">Morbi leo risus</button>
+              <button type="button" class="list-group-item">Porta ac consectetur ac</button>
+              <button type="button" class="list-group-item">Vestibulum at eros</button>
+              <button type="button" class="list-group-item">Cras justo odio</button>
+              <button type="button" class="list-group-item">Dapibus ac facilisis in</button>
+            </div>
           </div>
         </div>
 

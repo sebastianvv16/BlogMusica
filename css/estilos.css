@@ -18,7 +18,7 @@ body {
 .redes-sociales {
   float: right;
   margin-right: 20px;
-  margin-bottom: 3px;
+  margin-bottom: 10px;
   margin-top: 85px;
 }
 
@@ -48,7 +48,49 @@ img[class*="rs"]:hover {
   background: #FFFFFF;
 }
 
-/* Estilo para el color de fondo del contenido del blog*/
-.contenido-blog {
+/* Estilo para ubicar los elementos de la columna principal*/
+.column-left {
+  margin-left: 15px;
+}
+
+/* Estilo para ubicar los elementos de la columna derecha*/
+.column-rigth {
+  margin: 20px;
+}
+
+/* Estilo para el icono del comentario del ususario*/
+.icon-user {
+  font-size: 3em;
+  color: #EA4335;
+  float: left;
+}
+
+/* Estilo para el textarea*/
+.textarea-element {
+  width: 650px;
+  height: 28px;
+  margin-top: 5px;
+  margin-left: 15px;
+  float: left;
+}
+
+/* Estilo para el elemento el input group*/
+.input-group-addon {
+  color: #EA4335;
+  background-color: #ffffff;
+}
+
+@media (max-width: 750px) {
+
+/* Estilo para el textarea*/
+.textarea-element {
+  width: 350px;
+  height: 78px;
+  }
+
+/* Estilo para ocultar los elementos de la columna derecha*/
+  .column-rigth {
+    display: none;
+  }
 
 }
