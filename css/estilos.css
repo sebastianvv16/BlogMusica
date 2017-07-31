@@ -11,7 +11,6 @@ body {
 
 /*Clase para dar estilo al logo*/
 .logo {
-  width: 100px;
   margin-left: 20px;
 }
 
@@ -19,7 +18,7 @@ body {
 .redes-sociales {
   float: right;
   margin-right: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   margin-top: 85px;
 }
 
